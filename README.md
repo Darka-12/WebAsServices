@@ -38,7 +38,9 @@ Ejemplo para la primera práctica: crea un archivo dentro de APIRest/ con tu nom
 ```php
 # Si usas PHP
 echo "<?php echo 'Hola desde [Tu Nombre]'; ?>" > APIRest/tu_nombre.php
-
+```
+o python
+```python
 # Si usas Python
 echo "print('Hola desde [Tu Nombre]')" > APIRest/tu_nombre.py
 ```
@@ -52,13 +54,13 @@ git push origin main
 - Ve a tu fork en GitHub.
 - Haz clic en "Compare & pull request" (botón amarillo).
 - Verifica que diga:
-´´´bash
+```bash
 base repository: ajgutierr3z/WebAsServices ←
 head repository: TU_USUARIO/WebAsServices
-´´´
+```
 - Escribe un título (ej. "Entrega de [Tu Nombre]") y haz clic en "Create pull request".
 - ✅ Listo. Tu entrega queda registrada. No es necesario que yo haga merge.
-> 📖 Para más detalles, consulta la guía completa en el blog de Frexus (actualizar enlace).
+> 📖 Para más detalles, consulta la guía completa en el [blog de Frexus](https://www.frexus.dev/post/github-y-pull-requests/).
 
 ---
 
@@ -75,8 +77,8 @@ head repository: TU_USUARIO/WebAsServices
 - Todo queda trazable para tu portafolio.
 
 ### Licencia y contacto
-- Profesor: ajgutierr3z
-- Blog: frexus.dev
+- Profesor: Alfredo de Jesús Gutiérrez Gómez
+- Blog: [frexus.dev](www.frexus.dev)
 - Propósito: Exclusivamente educativo.
 - Licencia: MIT (puedes usar el código, pero cita la fuente).
 
