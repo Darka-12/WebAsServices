@@ -1,8 +1,18 @@
+<div align="center">
+
 # WebAsServices
+
+[![GitHub last commit](https://img.shields.io/github/last-commit/ajgutierr3z/WebAsServices)](https://github.com/ajgutierr3z/WebAsServices/commits/main)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/ajgutierr3z/WebAsServices)](https://github.com/ajgutierr3z/WebAsServices/pulls)
+[![CI Status](https://github.com/ajgutierr3z/WebAsServices/actions/workflows/revisar.yml/badge.svg)](https://github.com/ajgutierr3z/WebAsServices/actions)
+[![GitHub stars](https://img.shields.io/github/stars/ajgutierr3z/WebAsServices)](https://github.com/ajgutierr3z/WebAsServices/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+</div>
+
 
 Repositorio oficial de la materia **Aplicaciones Web Orientada a Servicios**. Aquí encontrarás todos los códigos de ejemplo que usaremos en clase y la base para que realices tus prácticas.
 
-[www.frexus.dev](https://www.frexus.dev)
 
 ---
 
@@ -61,6 +71,57 @@ head repository: TU_USUARIO/WebAsServices
 - Escribe un título (ej. "Entrega de [Tu Nombre]") y haz clic en "Create pull request".
 - ✅ Listo. Tu entrega queda registrada. No es necesario que yo haga merge.
 > 📖 Para más detalles, consulta la guía completa en el [blog de Frexus](https://www.frexus.dev/post/github-y-pull-requests/).
+
+---
+## 🤖 Automatización CI/CD
+
+Este repositorio utiliza **GitHub Actions** para automatizar la revisión de entregas.
+
+### ¿Qué valida automáticamente?
+
+| Validación | Estado | Descripción |
+|------------|--------|-------------|
+| Protección `demo_soa/` | ✅ Activo | Bloquea modificaciones a ejemplos del profesor |
+| Protección `.github/` | ✅ Activo | Protege la configuración del CI |
+| Sintaxis PHP/Python/JS | ✅ Activo | Verifica que el código sea válido |
+| Tamaño de archivos | ✅ Activo | Limita archivos a 100KB |
+| Extensiones permitidas | ✅ Activo | Solo .php, .py, .js, .html, .css |
+
+### 📊 Resultados en cada PR
+
+Cuando un alumno crea un Pull Request, el CI:
+1. **Revisa automáticamente** la estructura
+2. **Deja un comentario** con los resultados
+3. **Agrega labels** como `auto-validado`
+4. **No cierra el PR** (el profesor lo hace manualmente)
+
+![CI en acción](https://docs.github.com/assets/cb-25535/images/help/pull_requests/merge_box/pull-request-merge-pr-checks.png)
+
+---
+## 📊 Estadísticas de Entregas
+
+### 📈 Métricas del repositorio
+
+| Métrica | Valor |
+|---------|-------|
+| Total de PRs | ![GitHub pull requests](https://img.shields.io/github/issues-pr/ajgutierr3z/WebAsServices) |
+| Entregas validadas | ✅ [Ver Actions](https://github.com/ajgutierr3z/WebAsServices/actions) |
+| Alumnos activos | [Contar desde forks] |
+| Cobertura de prácticas | Práctica 1, 2, 3 |
+
+### 🏷️ Estado de las entregas
+
+Usamos labels para clasificar los PRs:
+
+- 🟢 `entrega-completa` - Entregas que cumplen todos los requisitos
+- 🟡 `needs-feedback` - Esperando revisión del profesor
+- 🔵 `feedback-dado` - Ya se proporcionó retroalimentación
+- 🟣 `ejemplo-libro` - Casos destacados para el libro
+
+### 📊 Dashboard visual
+
+Puedes ver el tablero de proyectos aquí:  
+[![Project Status](https://img.shields.io/badge/Project-Kanban-blue)](https://github.com/users/ajgutierr3z/projects/1)
 
 ---
 
