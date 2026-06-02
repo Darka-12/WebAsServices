@@ -16,6 +16,16 @@ Repositorio oficial de la materia **Aplicaciones Web Orientada a Servicios**. Aq
 
 ---
 
+## 📑 Tabla de Contenidos
+
+- [📚 Estructura del Repositorio](#-estructura-del-repositorio)
+- [🚀 Flujo de Trabajo para Alumnos](#-flujo-de-trabajo-para-alumnos)
+- [🤖 Automatización CI/CD](#-automatización-cicd)
+- [📊 Estadísticas de Entregas](#-estadísticas-de-entregas)
+- [📖 Licencia y Contacto](#licencia-y-contacto)
+---
+
+
 ## 📚 Estructura del Repositorio
 
 > ⚠️ **Para alumnos:** Solo deben modificar los archivos dentro de la carpeta indicada para cada práctica. El resto del repositorio es material de ejemplo del profesor.
